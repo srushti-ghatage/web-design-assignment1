@@ -1,0 +1,57 @@
+<!--
+Assignment 1 
+Part A:
+
+Create two pages website for a coffee shop, Travel, or anything by using of below HTML controls, and feel free to add more HTML controls
+
+Favicon
+Table
+Form
+Images
+Hyperlink
+Button etc.
+
+Author : Srushti Ghatage
+Date : 01/15/2023
+-->
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Document Header Section -->
+
+<head>
+
+    <title>Cafe Deja Vu</title> <!--Page title, shown in tabs, Must be precise and meaningful -->
+    <link rel="stylesheet" href="dist/main.css">
+</head> 
+ 
+<body> 
+
+    <!--Top Nav Bar Section-->
+    <section>
+      <div id="overview" class="header"> <!--Divs are given individual IDs so that they can be used as anchor targets-->
+            
+                <picture> <!--Picture tag gives more flexibility to the image resource-->
+                    <source srcset="assets/images/clientlogo.png" alt="Client Branding Image"  width="150" height=50> <!--Image source is specified here-->
+                    <img src="assets/images/clientLogo.png" alt="Client Branding Image" width="150" height="50"> <!--Fallback Option incase src doesnt work-->
+                </picture>
+                <div class="navigation"> 
+                    <a active="active" href="#home">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>  <!--#home specifies the id of the section that the anchor would direct to-->
+                    <a href="#about">&nbsp;&nbsp;About&nbsp;&nbsp;</a> <!--#about specifies the id of the section that the anchor would direct to-->
+                    <a href="#featured_items">&nbsp;&nbsp;Featured&nbsp;&nbsp;</a> <!--#featured_apartments specifies the id of the section that the anchor would direct to-->
+                    <a href="#social_media_links">&nbsp;&nbsp;Contact&nbsp;&nbsp;</a><!--#social_media_links specifies the id of the section that the anchor would direct to-->
+                  
+            
+            </div>
+            <div >
+                <input class="search" type="search" placeholder="Saved search">
+            </div>
+            <div class="notification_container"> 
+                <img src="assets/images/bell.png" alt="Client Branding Image" width="16" height="16">
+            </div>
+                <button type="submit">LOGIN</button>
+           
+      </div>
+   </section>
