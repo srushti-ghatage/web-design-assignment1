@@ -22,9 +22,8 @@ Date : 01/15/2023
 <!-- Document Header Section -->
 
 <head>
-
     <title>Cafe Deja Vu</title> <!--Page title, shown in tabs, Must be precise and meaningful -->
-    <link rel="stylesheet" href="dist/main.css">
+    <link rel="stylesheet" href="styles/main.css">
 </head> 
  
 <body> 
@@ -60,37 +59,30 @@ Date : 01/15/2023
        <h1> Menu</h1>
     <table>
         <tr>
-       
           <th>Item</th>
           <th>Cost ($)</th>
         </tr>
-        <tr>
-        
+        <tr> 
           <td>Cold Coffee</td>
           <td>3.99</td>
         </tr>
         <tr>
-       
           <td>Cafe Mocha</td>
           <td>4.99</td>
         </tr>
         <tr>
-       
           <td>Green Apple Tea</td>
           <td>2.99</td>
         </tr>
         <tr>
-         
           <td>Boba Tea</td>
           <td>4.99</td>
         </tr>
         <tr>
-         
           <td>Vanilla Latte</td>
           <td>1.99</td>
         </tr>
         <tr>
-        
           <td>Chai Latte</td>
           <td>6.99</td>
         </tr>
@@ -109,6 +101,52 @@ Date : 01/15/2023
         <label for="mail">Contact</label><br>
         <input type="text" id="mail" name="mail" value="sgrin@gmail.com"><br>
         <input type="submit" value="Submit">
-        
       </form> 
    </section>
+
+        <!--Footer Section-->
+<section>
+    <div class="footer"> 
+        <!--direction:row-->
+        <div class="vertical_flex"> 
+            <img src="assets/images/clientLogo.png" alt="Client Branding Image" width="150" height="50">
+            <p class="location-label">The most beautiful exclusive properties and luxury apartments.</p>
+            <div class="featured_apartments_courousal" id="social_media_links"> <!--Divs are given individual IDs so that they can be used as anchor targets-->
+                <a href="#home" > <img src="assets/images/telegram.png" alt="Social Media Link 1" width="30" height="30"></a>
+                <a href="#home" > <img src="assets/images/instagram.png" alt="Social Media Link 2" width="30" height="30"></a>
+                <a href="#home" > <img src="assets/images/facebook.png" alt="Social Media Link 3" width="30" height="30"></a>
+                <a href="#home" > <img src="assets/images/twitter.png" alt="Social Media Link 4" width="30" height="30"></a>
+            </div>
+             <!--direction:column:logo,SM links-->
+        </div>
+        <div class="vertical_flex"> 
+            <h4 class="location-label_header">Useful Links</h4>
+                    <ul> <!--represents an unordered list of items, here "Useful Links"-->
+                         <!--list items-->
+                        <li class="location-label">About</li>
+                        <li class="location-label">Partners</li>
+                        <li class="location-label">Contact</li>
+                    </ul>
+                    
+            <!--direction:column:logo,useful links-->
+       </div>
+       <div class="vertical_flex"> 
+        <h4 class="location-label_header">Help?</h4>
+        <ul> <!--represents an unordered list of items, here "Help" Links-->
+             <!--list items-->
+            <li class="location-label">FAQs</p>
+            <li class="location-label">Terms and Conditions</li>
+            <li class="location-label">Policy</li>
+            <li class="location-label">Privacy</li>
+
+        </ul>
+        <!--direction:column:logo,help?-->
+   </div>
+    </div>
+    <div class="footer-dark">
+        <footer class="location-label">&copy : Copyright 2021 | modern.com</footer> <!-- HTML element represents a footer for its nearest sectioning content or sectioning root element.  -->
+       
+    </div>
+     </section>
+   </body>
+   </html>
