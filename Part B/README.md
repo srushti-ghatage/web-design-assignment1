@@ -30,9 +30,9 @@ Input types of :
 <range> - Numeric selector within a range of values, typically visualized as a slider
 <video> - Defines a video
 <footer> - The <footer> HTML element represents a footer for its nearest sectioning content or sectioning root element.  
-  <head> --  Document Header Section    
- <title> -- Page title, shown in tabs, Must be precise and meaningful   
- <body> -- Document Body Section--contains all the contents of an HTML document,there can be only one body tag in a document.     
+  <head> --  Document Header Section.     
+ <title> -- Page title, shown in tabs, Must be precise and meaningful.    
+ <body> -- Document Body Section--contains all the contents of an HTML document,there can be only one body tag in a document.       
  <div> -- Element is the generic container for flow content.   
  <section> -- Element represents a generic standalone section of a document.    
  <picture> -- The <picture> HTML element contains zero or more <source> elements and one <img> element to offer alternative versions of an image for different display/device scenarios.  
