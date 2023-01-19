@@ -22,8 +22,8 @@
                 </picture>
                 <div class="navigation"> 
                     <a active="active" href="#home">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>  <!--#home specifies the id of the section that the anchor would direct to-->
-                    <a href="#menu">&nbsp;&nbsp;Menu&nbsp;&nbsp;</a> <!--#about specifies the id of the section that the anchor would direct to-->
-                    <a href="#featured_items">&nbsp;&nbsp;Contact&nbsp;&nbsp;</a> <!--#featured_apartments specifies the id of the section that the anchor would direct to-->
+                    <a href="#menu">&nbsp;&nbsp;Items&nbsp;&nbsp;</a> <!--#about specifies the id of the section that the anchor would direct to-->
+                    <a href="#cont">&nbsp;&nbsp;Contact&nbsp;&nbsp;</a> <!--#featured_apartments specifies the id of the section that the anchor would direct to-->
                     <a href="#social_media_links">&nbsp;&nbsp;Links&nbsp;&nbsp;</a><!--#social_media_links specifies the id of the section that the anchor would direct to-->
                   
             
@@ -42,7 +42,7 @@
     <div style="background-image: url(../assets/bg.png); height: 800px; width: 100%;"></div>
    </section>
 
-   <section>
+   <section id="menu">
     <h1>Featured Items</h1>
     <div class="footer">
         <div class = "image"> 
@@ -77,13 +77,13 @@
     </div>
     <section>
         <div class = "image"> 
-        <button>View Entire Menu</button>
+        <button onclick="document.location='menu.html'">View Entire Menu</button>
         </div>
     </section>
     </div>
    </section>
 
-   <section>
+   <section id="cont">
        <div class="image2">
         <h1>Contact Us - For Parties & Events</h1>  
         <form action="/action_page.php">
