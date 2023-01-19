@@ -25,11 +25,10 @@ Date : 01/15/2023
 </head> 
  
 <body class="container"> 
-
     <!--Top Nav Bar Section-->
     <section>
-      <div id="overview" class="foot"> <!--Divs are given individual IDs so that they can be used as anchor targets-->
-            
+        <header>
+            <div id="overview" class="foot"> <!--Divs are given individual IDs so that they can be used as anchor targets-->
                 <picture> <!--Picture tag gives more flexibility to the image resource-->
                     <source srcset="../assets/clientlogo.png" alt="Client Branding Image"  width="120" height=70> <!--Image source is specified here-->
                     <img src="../assets/clientLogo.png" alt="Client Branding Image" width="150" height="50"> <!--Fallback Option incase src doesnt work-->
@@ -37,8 +36,6 @@ Date : 01/15/2023
                 <div class="navigation"> 
                     <a active="active" href="#home">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>  <!--#home specifies the id of the section that the anchor would direct to-->
                     <a href="#menu">&nbsp;&nbsp;Pre Order&nbsp;&nbsp;</a> <!--#about specifies the id of the section that the anchor would direct to-->
-                  
-            
             </div>
             <div >
                 <input class="search" type="search" placeholder="Saved search">
@@ -46,6 +43,8 @@ Date : 01/15/2023
        
            
       </div>
+        </header>
+   
    </section>
    <section>
     <video width="1280" height="760" controls autoplay>
