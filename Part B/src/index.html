@@ -11,3 +11,134 @@ Include the readme.txt file in Part A and Part B and explain/mention the tags us
 Author : Srushti Ghatage
 Date : 01/15/2023
 -->
+
+
+<!DOCTYPE html>
+<html>
+    
+<!-- Document Header Section -->
+
+<head>
+    <title>NYKAA FASHION</title> <!--Page title, shown in tabs, Must be precise and meaningful -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="icon" type="image/x-icon" href="../assets/clientlogo.png" >
+</head> 
+ 
+<body> 
+
+    <!--Top Nav Bar Section-->
+    <section>
+      <div id="overview" class="foot"> <!--Divs are given individual IDs so that they can be used as anchor targets-->
+            
+                <picture> <!--Picture tag gives more flexibility to the image resource-->
+                    <source srcset="../assets/clientlogo.png" alt="Client Branding Image"  width="120" height=70> <!--Image source is specified here-->
+                    <img src="../assets/clientLogo.png" alt="Client Branding Image" width="150" height="50"> <!--Fallback Option incase src doesnt work-->
+                </picture>
+                <div class="navigation"> 
+                    <a active="active" href="#home">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>  <!--#home specifies the id of the section that the anchor would direct to-->
+                    <a href="#menu">&nbsp;&nbsp;Products&nbsp;&nbsp;</a> <!--#about specifies the id of the section that the anchor would direct to-->
+                    <a href="#featured_items">&nbsp;&nbsp;Contact&nbsp;&nbsp;</a> <!--#featured_apartments specifies the id of the section that the anchor would direct to-->
+                    <a href="#social_media_links">&nbsp;&nbsp;Links&nbsp;&nbsp;</a><!--#social_media_links specifies the id of the section that the anchor would direct to-->
+                  
+            
+            </div>
+            <div >
+                <input class="search" type="search" placeholder="Saved search">
+            </div>
+            <div class="notification_container"> 
+                <img src="../assets/bell.png" alt="Notif" width="16" height="16">
+            </div>
+              
+           
+      </div>
+   </section>
+   <section>
+    <video width="1280" height="760" controls autoplay>
+        <source src="../assets/vid.mp4" type="video/mp4">
+        <source src="../assets/vid.mp4" type="video/ogg">
+      Your browser does not support the video tag.
+      </video>
+   </section>
+  
+   <section>
+    <h1>New & Upcoming Items</h1>
+     
+    <section>
+        <div style="background-image: url(../assets/bg.png); height: 900px; width: 100%;"></div>
+       </section>
+    </section>
+    </div>
+   </section>
+
+   <section>
+       <div class="image2">
+        <h1>Pre Order our New Matte Lipstick Now!!</h1>  
+        <form action="/action_page.php">
+           <label for="fname">First name:</label><br>
+           <input type="text" id="fname" name="fname" value="Shawn"><br>
+           <label for="lname">Last name:</label><br>
+           <input type="text" id="lname" name="lname" value="Greene"><br><br>
+           <label for="contact">Contact</label><br>
+           <input type="text" id="contact" name="contact" value="+16177611232"><br>
+<br>
+           <label for="email">Enter your email:</label>
+<input type="email" id="email" name="email">
+<br>
+
+           <label for="favcolor">Select your lipstick color:</label>
+           <input type="color" id="favcolor" name="favcolor" value="#1c2833">
+           <br>
+           <label for="mail">Quantity (Max 3)</label><br>
+           <input type="range" id="points" name="points" min="0" max="3">
+           <input type="submit" value="Submit">
+         </form> 
+       </div>
+    
+   </section>
+
+        <!--Footer Section-->
+<section>
+    <div class="foot"> 
+        <!--direction:row-->
+        <div class="vertical_flex"> 
+            <img src="../assets/clientLogo.png" alt="Client Branding Image" width="100" height="50">
+            <p class="location-label">Fashion Destiantion</p>
+            <div class="featured_apartments_courousal" id="social_media_links"> <!--Divs are given individual IDs so that they can be used as anchor targets-->
+                <a href="#home" > <img src="../assets/facebook.png"  alt="Social Media Link 1" width="30" height="30"></a>
+                <a href="#home" > <img src="../assets/instagram.png" alt="Social Media Link 2" width="30" height="30"></a>
+                <a href="#home" > <img src="../assets/telegram.png" alt="Social Media Link 3" width="30" height="30"></a>
+                <a href="#home" > <img src="../assets/twitter.png" alt="Social Media Link 4" width="30" height="30"></a>
+            </div>
+             <!--direction:column:logo,SM links-->
+        </div>
+        <div class="vertical_flex"> 
+            <h4 class="location-label_header">Useful Links</h4>
+                    <ul> <!--represents an unordered list of items, here "Useful Links"-->
+                         <!--list items-->
+                        <li class="location-label">About</li>
+                        <li class="location-label">Partners</li>
+                        <li class="location-label">Contact</li>
+                    </ul>
+                    
+            <!--direction:column:logo,useful links-->
+       </div>
+       <div class="vertical_flex"> 
+        <h4 class="location-label_header">Help?</h4>
+        <ul> <!--represents an unordered list of items, here "Help" Links-->
+             <!--list items-->
+            <li class="location-label">FAQs</p>
+            <li class="location-label">Terms and Conditions</li>
+            <li class="location-label">Policy</li>
+            <li class="location-label">Privacy</li>
+
+        </ul>
+        <!--direction:column:logo,help?-->
+   </div>
+    </div>
+    <div class="footer-dark">
+        <footer class="location-label">&copy : Copyright 2023</footer> <!-- HTML element represents a footer for its nearest sectioning content or sectioning root element.  -->
+       
+    </div>
+     </section>
+   </body>
+   </html>
