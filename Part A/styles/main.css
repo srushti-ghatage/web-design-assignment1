@@ -1,7 +1,7 @@
 
 /* HEADER STYLES */
 a:link {
-    color: rgb(32, 32, 32);
+    color: rgb(216, 216, 216);
     text-decoration: none !important;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
@@ -13,12 +13,12 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
   /* mouse over link */
   a:hover {
-  color:#3fa0e0;
+  color:#a1a1a1;
   }
   
   /* selected link */
   a:active {
-    color: #2471A3;
+    color: #fff;
   }
 
 .buffer{
@@ -33,7 +33,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      
     
         padding:50px;
-        background-color: #fff;
+        background-color: #000;
     }
     
     /* 
@@ -73,3 +73,18 @@ Class selector  */
     background-color: #FFFFFF;
 }
 
+.image{
+    flex-direction: column;
+    display: flex;  
+    margin: auto;
+    padding:20px;
+}
+
+
+.image2{
+    flex-direction: column;
+    display: flex;  
+    margin: auto;
+    padding:100px;
+    align-content: center;
+}
